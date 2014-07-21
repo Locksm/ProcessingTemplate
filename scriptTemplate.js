@@ -6,7 +6,6 @@
 
 //Globals
 var keysDown = []; //Map of which keys are being pressed
-var mouseIsPressed; //Whether the user is pressing the left mouse button
 
 //Constants
 var CANVAS_WIDTH = 400;
@@ -20,35 +19,41 @@ var D = 68;
 //Classes
 
 //Functions
-var clearCanvas = function(){
+var clearCanvas = function()
+{
    stroke(255, 255, 255);
    fill(255, 255, 255);
    rect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 };
 
-void keyPressed(){
+void keyPressed()
+{
    keysDown[keyCode] = true;
 };
 
-void keyReleased(){
+void keyReleased()
+{
    keysDown[keyCode] = false;
 };
 
 
-void mousePressed(){
-   mouseIsPressed = 1;
+void mousePressed()
+{
+   
 }
 
 void mouseReleased(){
-   mouseIsPressed = 0;
+   
+   
 }
 
-void setup(){	
+void setup()
+{	
    size(CANVAS_WIDTH, CANVAS_HEIGHT);
    frameRate(FRAMERATE);
 };
 
-void draw(){
+void draw()
+{
    clearCanvas();
-   
 };
