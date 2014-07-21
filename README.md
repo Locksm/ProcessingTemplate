@@ -4,6 +4,7 @@ ProcessingTemplate
 A template for converting Khan Academy programs for offline use.
 
 How to use this template:
+
 1. Download all the files.
  
 2. Write your code inside scriptTemplate.js
