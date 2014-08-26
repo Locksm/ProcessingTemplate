@@ -19,15 +19,6 @@ var D = 68;
 //Classes
 
 //Functions
-<<<<<<< HEAD
-=======
-var clearCanvas = function()
-{
-   stroke(255, 255, 255);
-   fill(255, 255, 255);
-   rect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
-};
->>>>>>> f8bd8fcb8390b431fc150f48a2cbe7c69fcbbdfc
 
 void keyPressed()
 {
@@ -40,7 +31,6 @@ void keyReleased()
 };
 
 
-<<<<<<< HEAD
 void mousePressed(){
    
 }
@@ -49,31 +39,15 @@ void mouseReleased() {
    
 }
 
-void setup() {	
-=======
-void mousePressed()
-{
-   
-}
-
-void mouseReleased(){
-   
-   
-}
 
 void setup()
 {	
->>>>>>> f8bd8fcb8390b431fc150f48a2cbe7c69fcbbdfc
    size(CANVAS_WIDTH, CANVAS_HEIGHT);
    frameRate(FRAMERATE);
 };
 
-<<<<<<< HEAD
-void draw() {
    
-=======
 void draw()
 {
    clearCanvas();
->>>>>>> f8bd8fcb8390b431fc150f48a2cbe7c69fcbbdfc
 };
