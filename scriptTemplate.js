@@ -49,5 +49,5 @@ void setup()
    
 void draw()
 {
-   clearCanvas();
+   
 };
