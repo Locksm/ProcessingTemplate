@@ -33,11 +33,11 @@ void keyReleased()
 
 void mousePressed(){
    
-}
+};
 
 void mouseReleased() {
    
-}
+};
 
 
 void setup()
