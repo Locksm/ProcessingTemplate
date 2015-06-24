@@ -11,4 +11,4 @@ How to use this template:
 
 3. Note that you will need to use a slightly different syntax than you are used to for the built-in functions like draw(). For example, you would use void draw(){...}; instead of var draw = function(){...}.
 
-4. Open processingTemplate.htm with your web browser (Chrome, Firefox, IE) to view your work!
+4. Open processingTemplate.htm with your web browser (Chrome, Firefox, IE) to view your work! (You may need to simulate a server in order for everything to work properly. Python Simple Server is a very easy to use option.)
