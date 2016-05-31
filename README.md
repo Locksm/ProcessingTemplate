@@ -3,6 +3,8 @@ ProcessingTemplate
 
 A template for converting Khan Academy programs for offline use.
 
+Another example: [template](https://www.khanacademy.org/computer-programming/processingjs-inside-webpages-template/5157014494511104)
+
 How to use this template:
 
 1. Download all the files.
